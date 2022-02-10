@@ -3,11 +3,43 @@ html {
   padding: 0;
   background-color: white;
   font-family: Roboto, Lora, serif;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
 }
 
 /*----------------- Header -----------------*/
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 64px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  font
+}
+
+.logo {
+  height: 55px;
+  padding-left: 24px;
+}
+
+header span {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  margin-left: auto;
+  padding-right: 24px;
+}
+
+nav li {
+  display: inline-flex;
+}
+
+nav a {
+  padding: 8px;
+  color: black;
+}
 
 /*--------------- Main -----------------*/
 /*----- Banner -----*/
