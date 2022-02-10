@@ -4,7 +4,7 @@ html {
   background-color: white;
   font-family: Roboto, Lora, serif;
   font-size: 16px;
-  color: black;
+  color: #3b3838;
 }
 
 /*----------------- Header -----------------*/
@@ -13,9 +13,11 @@ header {
   display: flex;
   width: 100%;
   height: 64px;
+  border-top: 1px solid black;
   border-bottom: 1px solid black;
   align-items: center;
-  font
+  z-index: 1;
+  background-color: white;
 }
 
 .logo {
@@ -24,6 +26,7 @@ header {
 }
 
 header span {
+  color: navy;
   font-size: 1.5rem;
 }
 
@@ -38,11 +41,68 @@ nav li {
 
 nav a {
   padding: 8px;
-  color: black;
+  color: navy;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 /*--------------- Main -----------------*/
 /*----- Banner -----*/
+.banner {
+  box-sizing: border-box;
+  position: relative;
+  top: 65px;
+  background-color: lightgrey;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+
+.banner-img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.banner-img img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  padding-right: 120px;
+}
+
+.banner-text h2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 1.50rem;
+  font-weight: 500;
+
+}
+
+.banner-text button {
+  background-color: #3b3838;
+  color: white;
+  width: 80%;
+  height: auto;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 8px;
+}
 /*----- Keep practising -----*/
 /*----- Start learning -----*/
 /*----- Thesis exhibit -----*/
