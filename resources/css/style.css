@@ -54,8 +54,7 @@ nav a:hover {
 /*----- Banner -----*/
 .banner {
   box-sizing: border-box;
-  position: relative;
-  top: 65px;
+  margin-top: 65px;
   background-color: lightgrey;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -105,6 +104,50 @@ nav a:hover {
 }
 /*----- Keep practising -----*/
 /*----- Start learning -----*/
+.courses {
+  height: auto;
+  background-color: lightgrey;
+  margin: auto;
+  padding: 2rem 4.5rem;
+}
+
+.courses h2 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 2rem;
+  font-size: 3.5rem;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template: repeat(2, 50%) / repeat(3, 31.5%);
+  gap: 2rem;
+}
+
+.course-box {
+  background-color: white;
+}
+
+.course-box img {
+  width: 100%;
+  height: auto;
+}
+
+.course-text {
+  margin: 0;
+  padding: 1rem;
+}
+
+.course-text h3{
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.course-text p{
+  margin: .5rem auto;
+  font-size: 1rem;
+}
+
 /*----- Thesis exhibit -----*/
 
 /*----------------- Footer -----------------*/
