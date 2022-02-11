@@ -151,3 +151,14 @@ nav a:hover {
 /*----- Thesis exhibit -----*/
 
 /*----------------- Footer -----------------*/
+footer {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid black;
+  align-items: center;
+}
+
+footer span {
+  color: black;
+  padding-left: 24px;
+}
